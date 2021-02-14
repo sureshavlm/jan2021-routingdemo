@@ -1,0 +1,17 @@
+<h3>Accounts Page!</h3>
+
+<ul>
+	<li>
+		<a routerLink="./offers" [queryParams]="{ category: 'Accounts' }">Offers</a>
+	</li>
+	<li>
+		<a routerLink="./download">Download statement</a>
+	</li>
+	<li>
+		<a routerLink="/cards">Cards</a>
+	</li>
+</ul>
+
+<!-- to render child routes view -->
+<router-outlet></router-outlet>
+
